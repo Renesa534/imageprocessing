@@ -65,9 +65,9 @@ Combines all steps into a single streamlined proce.
 Follow the steps below to set up the project:
 
 Clone the Repository:
-```git clone https://github.com/your-username/id-card-details-extraction.git
-cd id-card-details-extraction```
-
+`git clone https://github.com/your-username/id-card-details-extraction.git
+cd id-card-details-extraction
+```
 Install Dependencies:
 Ensure you have Python 3.8 or above installed. Install required dependencies:
 ```pip install -r requirements.txt```

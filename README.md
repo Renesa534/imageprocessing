@@ -65,12 +65,15 @@ Combines all steps into a single streamlined proce.
 Follow the steps below to set up the project:
 
 Clone the Repository:
-`git clone https://github.com/your-username/id-card-details-extraction.git
+```
+git clone https://github.com/your-username/id-card-details-extraction.git
 cd id-card-details-extraction
 ```
 Install Dependencies:
 Ensure you have Python 3.8 or above installed. Install required dependencies:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 Prepare Data:
 
@@ -78,13 +81,17 @@ Place your dataset in the data folder, ensuring it has subfolders for training a
 
 Run the Pipeline:
 To process an image of an ID card:
-```python pipeline.py --input path/to/your/image.jpg```
+```
+python pipeline.py --input path/to/your/image.jpg
+```
 
 ## Usage
 The pipeline takes an input image containing an ID card placed on a random surface and outputs the textual details from the ID card.
 
 ## Example command
-```python pipeline.py --input ./test_images/sample_id.jpg```
+```
+python pipeline.py --input ./test_images/sample_id.jpg
+```
 
 ## Expected Output:
 Textual details extracted from the ID card, such as name, ID number, and date of birth.
